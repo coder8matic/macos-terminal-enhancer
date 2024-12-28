@@ -24,28 +24,34 @@ The script checks if these plugins and the theme are already installed and adds 
 
 ## How to Use the Script
 
-1. **Clone the Repository**: If you haven't already, clone the repository containing this script to your local machine.
+1. **Install Xcode Command Line Tools**: Before running the script, ensure that Xcode Command Line Tools are installed by executing:
+
+   ```bash
+   xcode-select --install
+   ```
+
+2. **Clone the Repository**: If you haven't already, clone the repository containing this script to your local machine.
 
    ```bash
    git clone https://github.com/coder8matic/macos-terminal-enhancer.git
    cd macos-terminal-enhancer
    ```
 
-2. **Make the Script Executable**: Ensure the script is executable by running:
+3. **Make the Script Executable**: Ensure the script is executable by running:
 
    ```bash
    chmod +x initial_install_mac.sh
    ```
 
-3. **Run the Script**: Execute the script to install the plugins and update your `.zshrc` file:
+4. **Run the Script**: Execute the script to install the plugins and update your `.zshrc` file:
 
    ```bash
    ./initial_install_mac.sh
    ```
 
-4. **Verify Installation**: After running the script, you can verify that the plugins and theme are installed by checking the `~/.oh-my-zsh/custom/plugins/` directory and ensuring that they are listed in your `.zshrc` file.
+5. **Verify Installation**: After running the script, you can verify that the plugins and theme are installed by checking the `~/.oh-my-zsh/custom/plugins/` directory and ensuring that they are listed in your `.zshrc` file.
 
-5. **Restart Terminal**: Close and reopen your terminal or run `source ~/.zshrc` to apply the changes.
+6. **Restart Terminal**: Close and reopen your terminal or run `source ~/.zshrc` to apply the changes.
 
 ## Example .zshrc Configuration
 
