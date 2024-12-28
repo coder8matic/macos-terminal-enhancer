@@ -29,8 +29,8 @@ The script checks if these plugins and the theme are already installed and adds 
 1. **Clone the Repository**: If you haven't already, clone the repository containing this script to your local machine.
 
    ```bash
-   git clone <repository-url>
-   cd <repository-directory>
+   git clone https://github.com/coder8matic/macos-terminal-enhancer.git
+   cd macos-terminal-enhancer
    ```
 
 2. **Make the Script Executable**: Ensure the script is executable by running:
