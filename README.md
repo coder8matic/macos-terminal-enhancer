@@ -24,10 +24,10 @@ The script checks if these plugins and the theme are already installed and adds 
 
 ## How to Use the Script
 
-1. **Install Xcode Command Line Tools**: Before running the script, ensure that Xcode Command Line Tools are installed by executing:
+1. **Run the Installation Script**: The script will automatically check for and install the necessary Xcode Command Line Tools if they are not already installed. Simply execute the script:
 
    ```bash
-   xcode-select --install
+   ./initial_install_mac.sh
    ```
 
 2. **Clone the Repository**: If you haven't already, clone the repository containing this script to your local machine.
@@ -43,15 +43,9 @@ The script checks if these plugins and the theme are already installed and adds 
    chmod +x initial_install_mac.sh
    ```
 
-4. **Run the Script**: Execute the script to install the plugins and update your `.zshrc` file:
+4. **Verify Installation**: After running the script, you can verify that the plugins and theme are installed by checking the `~/.oh-my-zsh/custom/plugins/` directory and ensuring that they are listed in your `.zshrc` file.
 
-   ```bash
-   ./initial_install_mac.sh
-   ```
-
-5. **Verify Installation**: After running the script, you can verify that the plugins and theme are installed by checking the `~/.oh-my-zsh/custom/plugins/` directory and ensuring that they are listed in your `.zshrc` file.
-
-6. **Restart Terminal**: Close and reopen your terminal or run `source ~/.zshrc` to apply the changes.
+5. **Restart Terminal**: Close and reopen your terminal or run `source ~/.zshrc` to apply the changes.
 
 ## Example .zshrc Configuration
 

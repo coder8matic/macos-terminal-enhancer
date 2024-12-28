@@ -6,6 +6,16 @@
 # - Powerlevel10k
 # - custom plugins for Oh My Zsh
 
+# Step 0: Check if Git is installed
+echo "Step 0: Checking for Git installation..."
+if ! git --version &> /dev/null; then
+    echo "Git is not installed. Installing Xcode Command Line Tools..."
+    xcode-select --install
+    echo "Please complete the installation of Xcode Command Line Tools and then rerun the script."
+else
+    echo "Git is already installed."
+fi
+
 # Bash script to install Homebrew
 
 # Step 1: Install Homebrew
