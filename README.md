@@ -15,14 +15,12 @@ The script checks if these plugins and the theme are already installed and adds 
 
 ## Features
 
+- **Installs Oh My Zsh**: This script installs [Oh My Zsh GitHub page](https://github.com/ohmyzsh/ohmyzsh).
 - **Installs Plugins**: Clones the specified plugins from their GitHub repositories if they are not already installed.
 - **Installs Powerlevel10k Theme**: Clones the Powerlevel10k theme repository and sets it up for use.
 - **Updates .zshrc**: Adds the plugins and theme to the `plugins` array and sets the theme in your `.zshrc` file.
 - **Sourcing**: Automatically sources the `.zshrc` file to apply changes immediately.
 
-## Prerequisites
-
-- **Oh My Zsh**: This script requires that you have Oh My Zsh installed. If you haven't installed it yet, you can do so by following the instructions on the [Oh My Zsh GitHub page](https://github.com/ohmyzsh/ohmyzsh).
 
 ## How to Use the Script
 
